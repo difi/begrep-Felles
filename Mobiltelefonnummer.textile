@@ -1,0 +1,31 @@
+---
+layout: default
+title: Mobiltelefonnummer
+headtitle: Begrepskatalog for Sikker digital post - 
+group: Egenskap
+---
+
+h3. Mobiltelefonnummer
+
+- Identifikator := http://begrep.difi.no/SDP/Mobiltelefonnummer
+- Term := Mobiltelefonnummer
+- Definisjon := Et internasjonalt mobiltelefonnummer.
+- Kjelde := SDP
+- Kommentar := Et mobiltelefonnummer lagret i Digital kontaktinfo har følgende format:
+
+* En tekststreng på formatet "^\\+?[- _0-9]+$"
+* Minimum lengde : 8
+* Maximum lengde : 20
+* Tillatte tegn: 0-9 og eventuelt + som første karakter
+* For norske mobilnummer i tillegg at:
+** nummeret starter på 0047,+47 eller er på 8 tegn
+** første siffer (etter evt. landkode) er 9 eller 4
+
+
+h4. Xml eksempel
+
+<pre class="brush: xml; toolbar: false">
+<Mobiltelefonnummer>+4799884422</Mobiltelefonnummer>
+</pre>
+
+

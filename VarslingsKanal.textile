@@ -1,0 +1,24 @@
+---
+layout: default
+title: VarslingsKanal
+headtitle: Begrepskatalog for Sikker digital post - 
+group: Egenskap
+---
+
+h3. VarslingsKanal
+
+- Identifikator := http://begrep.difi.no/SDP/VarslingsKanal
+- Term := VarslingsKanal
+- Definisjon := Kommunikasjonskanal for utsending av varsel og påminnelse
+- Kjelde := SDP
+- Kommentar := Varsling og påminnelsesmeldinger skal sendes på den kanal som blir spesifisert. Kanalen SMS er priset.
+- Gyldige verdier := | epost | sms |
+- Standardverdi := epost
+
+h4. Xml eksempel
+
+<pre class="brush: xml; toolbar: false">
+<VarslingsKanal>sms</VarslingsKanal>
+</pre>
+
+

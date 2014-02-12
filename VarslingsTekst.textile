@@ -1,0 +1,23 @@
+---
+layout: default
+title: VarslingsTekst
+headtitle: Begrepskatalog for Sikker digital post - 
+group: Egenskap
+---
+
+h3. VarslingsTekst
+
+- Identifikator := http://begrep.difi.no/SDP/VarslingsTekst
+- Term := VarslingsTekst
+- Definisjon := Tekst bruk i forbindelse med varsling på epost
+- Kjelde := SDP
+- Kommentar := En tekst knyttet til denne forsendelsen som legges med i varslinger og påminnelser til Innbygger. Teksten brukes kun i forbindelse med varsling på epost.
+
+
+h4. Xml eksempel
+
+<pre class="brush: xml; toolbar: false">
+<VarslingsTekst>Tilbud om bostøtte til din hybelkanin. Husk svarfrist på dette dokumentet er 24.12 2013.</VarslingsTekst>
+</pre>
+
+

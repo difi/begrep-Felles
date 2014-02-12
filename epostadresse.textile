@@ -1,0 +1,28 @@
+---
+layout: default
+title: Epostadresse
+headtitle: Begrepskatalog for Sikker digital post - 
+group: Egenskap
+---
+
+h3. Epostadresse
+
+- Identifikator := http://begrep.difi.no/SDP/Epostadresse
+- Term := Epostadresse
+- Definisjon := Adresse til en elektronisk postkasse på Internett
+- Kjelde := SDP
+- Kommentar := En e-postadresse lagret i Digital kontaktinfo har følgende format:
+
+* Ein tekststreng på formatet "^[\\w-\\+]+(?:\\.[\\w-\\+]+)*@(?:[\\w-]+\.)+[a-zA-Z]{2,7}$"
+* Klassifikasjon er Open Web Application Security Project (OWASP): Regulære uttrykk for validering
+
+
+
+
+h4. Xml eksempel
+
+<pre class="brush: xml; toolbar: false">
+<Epostadresse>ola.normann@norge.no</Epostadresse>
+</pre>
+
+

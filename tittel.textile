@@ -1,0 +1,23 @@
+---
+layout: default
+title: Tittel
+headtitle: Begrepskatalog for Sikker digital post - 
+group: Egenskap
+---
+
+h3. Tittel
+
+- Identifikator := http://begrep.difi.no/SDP/Tittel
+- Term := Tittel
+- Definisjon := Tittel eller navn på arkivenheten
+- Kjelde := NOARK 5
+- Kommentar := Vil vises til Innbygger. Registreres manuelt eller hentes automatisk fra innholdet i arkivdokumentet. 
+
+
+h4. Xml eksempel
+
+<pre class="brush: xml; toolbar: false">
+<Tittel>Vedtaksbrev - støtte til utdanning - saksnr. 2013/1111</Tittel>
+</pre>
+
+

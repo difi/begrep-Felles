@@ -1,0 +1,29 @@
+---
+layout: default
+title: leverandoerAdresse
+headtitle: Begrepskatalog for Sikker digital post - 
+group: Egenskap
+---
+
+h3. leverandoerAdresse
+
+- Identifikator := http://begrep.difi.no/SDP/leverandoerAdresse
+- Term := leverandoerAdresse
+- Definisjon := Adresse til en leverandør
+- Kjelde := SDP
+- Kommentar := Dette er en unik adresse for en leverandør, enten en Postkasseleverandør eller Utskrifts og forsendelsestjeneeste leverandør . 
+Adressen brukt for adressering er Organisasjonsnummeret for leverandører. Se http://begrep.difi.no/SDP/Organisasjonsnummer
+
+
+
+h4. Xml skjema 
+
+<pre class="brush: xml; toolbar: false">
+ <xs:element type="xs:string" name="LeverandoerAdresse" minOccurs="1" maxOccurs="1" sawsdl:modelReference="http://begrep.difi.no/leverandoerAdresse"/>
+</pre>
+
+
+
+
+
+

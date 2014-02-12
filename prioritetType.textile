@@ -1,0 +1,28 @@
+---
+layout: default
+title: prioritetType
+headtitle: Begrepskatalog for Sikker digital post - 
+group: Egenskap
+---
+
+h3. prioritetType
+
+- Identifikator := http://begrep.difi.no/SDP/prioritetType
+- Term := prioritetType
+- Definisjon := Definerer meldingens prioritering i forbindelse med meldingsutvekslingen.
+- Kjelde := SDP
+- Kommentar := Ved prioritetType=1 vil meldingen behandles forran alle prioritetType=2 meldinger. 
+Meldingen vil sendes til Innbygger sin postkasse innen minutter. 
+   *Meldinger med prioritetType=1 kan medføre høyere kostnader for Avsender.*
+   
+- Gyldige verdier := | 1 | 2 |
+- Standardverdi := 2
+
+
+h4. Xml eksempel
+
+<pre class="brush: xml; toolbar: false">
+<prioritetType>2</prioritetType>
+</pre>
+
+

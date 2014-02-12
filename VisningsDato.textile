@@ -1,0 +1,23 @@
+---
+layout: default
+title: VisningsDato
+headtitle: Begrepskatalog for Sikker digital post - 
+group: Egenskap
+---
+
+h3. VisningsDato
+
+- Identifikator := http://begrep.difi.no/SDP/VisningsDato
+- Term := VisningsDato
+- Definisjon := Data og klokkeslett
+- Kjelde := SDP
+- Kommentar := Tidspunkt for når en melding skal tilgjengeliggjøres for Innbygger i Innbygger sin postkasse. Dokumentet vil leveres til postkassen før dette tidspunkt, men ikke være synlig/tilgjengelig for Innbygger.
+
+
+h4. Xml eksempel
+
+<pre class="brush: xml; toolbar: false">
+<VisningsDato>2013-12-11T08:20:59.320Z</VisningsDato>
+</pre>
+
+

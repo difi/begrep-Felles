@@ -1,0 +1,24 @@
+---
+layout: default
+title: Skjerming
+headtitle: Begrepskatalog for Sikker digital post - 
+group: Egenskap
+---
+
+h3. Skjerming
+
+- Identifikator := http://begrep.difi.no/SDP/Skjerming
+- Term := Skjerming
+- Definisjon := Angivelse av om metadata om dokument skal skjermes
+- Kjelde := SDP
+- Kommentar := Dersom Skjerming=JA vil Tittel ikke brukes i varsel til Innbygger og Innbygger vil ikke se dokument tittel før Innbygger er autentisert på tilstrekkelig sikkerhetsnivå.
+- Gyldige verdier := | JA | NEI |
+- Standardverdi := NEI
+
+h4. Xml eksempel
+
+<pre class="brush: xml; toolbar: false">
+<Skjerming>JA</Skjerming>
+</pre>
+
+

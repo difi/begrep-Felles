@@ -1,0 +1,24 @@
+---
+layout: default
+title: Sikkerhetsnivaa
+headtitle: Begrepskatalog for Sikker digital post - 
+group: Egenskap
+---
+
+h3. Sikkerhetsnivaa
+
+- Identifikator := http://begrep.difi.no/SDP/Sikkerhetsnivaa
+- Term := Sikkerhetsnivaa
+- Definisjon := Definerer hvilket autentiseringsnivå som kreves for at dokumentet skal åpnes
+- Kjelde := Rammeverk for autentisering og uavviselighet i elektronisk kommunikasjon med og i offentlig sektor
+- Kommentar := "Rammeverk for autentisering og uavviselighet i elektronisk kommunikasjon med og i offentlig sektor":http://www.regjeringen.no/nb/dep/fad/dok/lover-og-regler/retningslinjer/2008/rammeverk-for-autentisering-og-uavviseli/4.html?id=505929
+- Gyldige verdier := | 3 | 4 |
+- Standardverdi := 4
+
+h4. Xml eksempel
+
+<pre class="brush: xml; toolbar: false">
+<Sikkerhetsnivaa>3</Sikkerhetsnivaa>
+</pre>
+
+

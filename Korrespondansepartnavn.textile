@@ -1,0 +1,17 @@
+---
+layout: default
+title: korrespondansepartnavn
+headtitle: Begrepskatalog for Sikker digital post - 
+group: Egenskap
+---
+
+h3. korrespondansepartnavn
+
+- Identifikator := http://begrep.difi.no/SDP/korrespondansepartnavn
+- Term := korrespondansepartnavn
+- Definisjon :=  Navn på person eller organisasjon som er avsender eller mottaker av dokumentet
+- Kjelde := NOARK 5
+- Kommentar := Navn på korrespondansepart forekommer én gang innenfor objektet korrespondansepart, men denne kan forekomme flere ganger innenfor en journalpost.   Identifikasjon i NOARK 5: M400. 
+
+h4. Eigenskapar
+

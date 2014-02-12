@@ -1,0 +1,23 @@
+---
+layout: default
+title: tilknyttetRegistreringSom
+headtitle: Begrepskatalog for Sikker digital post - 
+group: Egenskap
+---
+
+h3. tilknyttetRegistreringSom
+
+- Identifikator := http://begrep.difi.no/SDP/tilknyttetRegistreringSom
+- Term := tilknyttetRegistreringSom
+- Definisjon := Angivelse av hvilken "rolle" dokumentet har i forhold til registreringen
+- Kjelde := NOARK 5
+- Kommentar := Obligatoriske verdier:	"Hoveddokument",	"Vedlegg"
+
+
+h4. Xml eksempel
+
+<pre class="brush: xml; toolbar: false">
+<tilknyttetRegistreringSom>Hoveddokument</tilknyttetRegistreringSom>
+</pre>
+
+

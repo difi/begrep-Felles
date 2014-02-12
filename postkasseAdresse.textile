@@ -1,0 +1,32 @@
+---
+layout: default
+title: postkasseAdresse
+headtitle: Begrepskatalog for Sikker digital post - 
+group: Egenskap
+---
+
+h3. postkasseAdresse
+
+- Identifikator := http://begrep.difi.no/SDP/postkasseAdresse
+- Term := postkasseAdresse
+- Definisjon := Adresse til en Innbygger sin Postkasse hos en Postkasseleverandør
+- Kjelde := SDP
+- Kommentar := Dette er en unik adresse for en Person sin Postkasseadresse hos en Postkasseleverandør. Enten digipost eller eboks.
+For definisjon av postkasseadressen hos Digipost se: https://www.digipost.no/plattform/felles/digipostadresser
+
+
+
+h4. Xml skjema 
+
+<pre class="brush: xml; toolbar: false">
+<xs:element type="xs:string" name="PostkasseAdresse" minOccurs="1" maxOccurs="1" sawsdl:modelReference="http://begrep.difi.no/postkasseAdresse"/>
+</pre>
+
+h4. Xml eksempel
+
+
+Eksempel på en gyldig Digipost-adresse: ola.nordmann#9YDT
+
+
+
+

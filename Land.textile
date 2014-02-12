@@ -1,0 +1,17 @@
+---
+layout: default
+title: Land
+headtitle: Begrepskatalog for Sikker digital post - 
+group: Egenskap
+---
+
+h3. Land
+
+- Identifikator := http://begrep.difi.no/SDP/Land
+- Term := Land
+- Definisjon :=  Land dersom adressen er i utlandet
+- Kjelde := NOARK 5
+- Kommentar := Brukt i forbindelse med Print. Identifikasjon i NOARK 5: M409. 
+
+
+
