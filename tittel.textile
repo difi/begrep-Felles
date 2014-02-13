@@ -5,10 +5,8 @@ headtitle: Begrepskatalog for Sikker digital post -
 group: Egenskap
 ---
 
-h3. Tittel
-
-- Identifikator := http://begrep.difi.no/SDP/Tittel
-- Term := Tittel
+- Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.local{{ page.url }}</a>
+- Term := {{page.title}}
 - Definisjon := Tittel eller navn på arkivenheten
 - Kjelde := NOARK 5
 - Kommentar := Vil vises til Innbygger. Registreres manuelt eller hentes automatisk fra innholdet i arkivdokumentet. 

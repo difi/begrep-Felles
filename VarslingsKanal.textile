@@ -5,10 +5,8 @@ headtitle: Begrepskatalog for Sikker digital post -
 group: Egenskap
 ---
 
-h3. VarslingsKanal
-
-- Identifikator := http://begrep.difi.no/SDP/VarslingsKanal
-- Term := VarslingsKanal
+- Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.local{{ page.url }}</a>
+- Term := {{page.title}}
 - Definisjon := Kommunikasjonskanal for utsending av varsel og påminnelse
 - Kjelde := SDP
 - Kommentar := Varsling og påminnelsesmeldinger skal sendes på den kanal som blir spesifisert. Kanalen SMS er priset.

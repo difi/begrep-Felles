@@ -5,10 +5,8 @@ headtitle: Begrepskatalog for Sikker digital post -
 group: Egenskap
 ---
 
-h3. Skjerming
-
-- Identifikator := http://begrep.difi.no/SDP/Skjerming
-- Term := Skjerming
+- Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.local{{ page.url }}</a>
+- Term := {{page.title}}
 - Definisjon := Angivelse av om metadata om dokument skal skjermes
 - Kjelde := SDP
 - Kommentar := Dersom Skjerming=JA vil Tittel ikke brukes i varsel til Innbygger og Innbygger vil ikke se dokument tittel før Innbygger er autentisert på tilstrekkelig sikkerhetsnivå.

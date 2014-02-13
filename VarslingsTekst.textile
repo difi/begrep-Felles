@@ -5,10 +5,8 @@ headtitle: Begrepskatalog for Sikker digital post -
 group: Egenskap
 ---
 
-h3. VarslingsTekst
-
-- Identifikator := http://begrep.difi.no/SDP/VarslingsTekst
-- Term := VarslingsTekst
+- Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.local{{ page.url }}</a>
+- Term := {{page.title}}
 - Definisjon := Tekst bruk i forbindelse med varsling på epost
 - Kjelde := SDP
 - Kommentar := En tekst knyttet til denne forsendelsen som legges med i varslinger og påminnelser til Innbygger. Teksten brukes kun i forbindelse med varsling på epost.

@@ -5,10 +5,8 @@ headtitle: Begrepskatalog for Sikker digital post -
 group: Egenskap
 ---
 
-h3. postkasseAdresse
-
-- Identifikator := http://begrep.difi.no/SDP/postkasseAdresse
-- Term := postkasseAdresse
+- Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.local{{ page.url }}</a>
+- Term := {{page.title}}
 - Definisjon := Adresse til en Innbygger sin Postkasse hos en Postkasseleverandør
 - Kjelde := SDP
 - Kommentar := Dette er en unik adresse for en Person sin Postkasseadresse hos en Postkasseleverandør. Enten digipost eller eboks.

@@ -5,10 +5,8 @@ headtitle: Begrepskatalog for Sikker digital post -
 group: Egenskap
 ---
 
-h3. sistOppdatert
-
-- Identifikator := http://begrep.difi.no/SDP/sistOppdatert
-- Term := sistOppdatert
+- Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.local{{ page.url }}</a>
+- Term := {{page.title}}
 - Definisjon := Dato for når et objekt sist ble endret
 - Kjelde := SDP
 - Kommentar := sistOppdatert blir brukt i forskjellige objektet, i de objekter det er en del av definerer feltet når objektet sist ble endret. Det gir ingen informasjon om hvilken endring som da ble utført.

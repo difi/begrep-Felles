@@ -5,10 +5,8 @@ headtitle: Begrepskatalog for Sikker digital post -
 group: Egenskap
 ---
 
-h3. tilknyttetRegistreringSom
-
-- Identifikator := http://begrep.difi.no/SDP/tilknyttetRegistreringSom
-- Term := tilknyttetRegistreringSom
+- Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.local{{ page.url }}</a>
+- Term := {{page.title}}
 - Definisjon := Angivelse av hvilken "rolle" dokumentet har i forhold til registreringen
 - Kjelde := NOARK 5
 - Kommentar := Obligatoriske verdier:	"Hoveddokument",	"Vedlegg"

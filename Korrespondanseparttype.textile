@@ -5,10 +5,8 @@ headtitle: Begrepskatalog for Sikker digital post -
 group: Egenskap
 ---
 
-h3. korrespondanseparttype
-
-- Identifikator := http://begrep.difi.no/SDP/korrespondanseparttype
-- Term := korrespondanseparttype
+- Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.local{{ page.url }}</a>
+- Term := {{page.title}}
 - Definisjon :=  Registreres automatisk knyttet til funksjonalitet i forbindelse med opprettelse av journalpost, kan også registreres manuelt
 - Kjelde := NOARK 5
 - Kommentar := Korrespondansetype forekommer én gang innenfor objektet korrespondansepart, men denne kan forekomme flere ganger innenfor en journalpost.  Identifikasjon i NOARK 5: M087. 

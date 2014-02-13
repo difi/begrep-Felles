@@ -1,18 +1,16 @@
 ---
 layout: default
-title: leverandoerAdresse
+title: postkasseLeverandoerAdresse
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
 ---
 
-h3. leverandoerAdresse
-
-- Identifikator := http://begrep.difi.no/SDP/leverandoerAdresse
-- Term := leverandoerAdresse
-- Definisjon := Adresse til en leverandør
+- Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.local{{ page.url }}</a>
+- Term := {{page.title}}
+- Definisjon := Adresse til en leverandør av Postkassetjeneste
 - Kjelde := SDP
 - Kommentar := Dette er en unik adresse for en leverandør, enten en Postkasseleverandør eller Utskrifts og forsendelsestjeneeste leverandør . 
-Adressen brukt for adressering er Organisasjonsnummeret for leverandører. Se http://begrep.difi.no/SDP/Organisasjonsnummer
+Adressen brukt for adressering er Organisasjonsnummeret for leverandører. Se http://begrep.difi.no/Felles/Organisasjonsnummer
 
 
 

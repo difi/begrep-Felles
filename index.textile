@@ -1,0 +1,14 @@
+---
+layout: default
+title: Datatyper for felleskomponenter forvaltet av Difi
+headtitle: Datatyper for felleskomponenter forvaltet av Difi - 
+---
+
+Beskrivelsene av datatypene gir detaljer om validering og formatregler for hver datatype.
+Følgende datatyper er definert:
+<ul class='nav'>
+{% assign pages_list = site.pages %}
+{% assign group = "Egenskap" %}
+	       {% include menu.html %}
+
+</ul>

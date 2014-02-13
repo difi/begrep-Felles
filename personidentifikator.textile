@@ -1,0 +1,32 @@
+---
+layout: default
+title: personidentifikator
+headtitle: Begrepskatalog for Sikker digital post - 
+group: Egenskap
+---
+
+- Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.local{{ page.url }}</a>
+- Term := {{page.title}}
+- Definisjon := Identifikasjon av en person
+- Kjelde := SDP
+- Kommentar := personidentifikator er er enten et fødselsnummer et gyldig D-nummer.
+
+
+h4. Xml skjema 
+
+<pre class="brush: xml; toolbar: false">
+<xs:simpleType name="personidentifikatorType" sawsdl:modelReference="http://begrep.difi.no/personidentifikator">
+        <xs:restriction base="xs:string">
+            <xs:length value="11"/>
+        </xs:restriction>
+    </xs:simpleType>
+</pre>
+
+h4. Xml eksempel
+
+<pre class="brush: xml; toolbar: false">
+<personidentifikator>03015561822</personidentifikator>
+
+</pre>
+
+

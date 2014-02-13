@@ -1,17 +1,15 @@
 ---
 layout: default
-title: Mobiltelefonnummer
+title: mobilTelefonNummer
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
 ---
 
-h3. Mobiltelefonnummer
-
-- Identifikator := http://begrep.difi.no/SDP/Mobiltelefonnummer
-- Term := Mobiltelefonnummer
+- Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.local{{ page.url }}</a>
+- Term := {{page.title}}
 - Definisjon := Et internasjonalt mobiltelefonnummer.
 - Kjelde := SDP
-- Kommentar := Et mobiltelefonnummer lagret i Digital kontaktinfo har følgende format:
+- Kommentar := Et mobiltelefonnummer lagret i Digital kontaktregister har følgende format:
 
 * En tekststreng på formatet "^\\+?[- _0-9]+$"
 * Minimum lengde : 8
