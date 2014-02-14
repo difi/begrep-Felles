@@ -1,0 +1,31 @@
+---
+layout: default
+title: sistVerifisert
+headtitle: Begrepskatalog for Sikker digital post - 
+group: Egenskap
+---
+
+- Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.no{{ page.url }}</a>
+- Term := {{page.title}}
+- Definisjon := Dato for når et objekt sist ble verifisert gyldig
+- Kjelde := SDP
+- Kommentar := sistVerifisert blir brukt i forskjellige objektet. (Eksempel for epostadresse og mobiltelefonnummer).
+Feltet definerer når objektet sist ble verifisert/bekreftet. 
+F.eks for mobiltelefonnummer betyr dette at en SMS er sendt til mobilnummeret og smsen er bekreftet mottatt av Person.
+
+
+
+h4. Xml skjema 
+
+<pre class="brush: xml; toolbar: false">
+<xs:attribute type="xs:dateTime" name="sistVerifisert"/>
+</pre>
+
+h4. Xml eksempel
+
+<pre class="brush: xml; toolbar: false">
+<sistVerifisert>2014-02-06T08:15:41.683Z</sistVerifisert>
+
+</pre>
+
+

@@ -5,7 +5,7 @@ headtitle: Begrepskatalog for Sikker digital post -
 group: Egenskap
 ---
 
-- Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.local{{ page.url }}</a>
+- Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.no{{ page.url }}</a>
 - Term := {{page.title}}
 - Definisjon := Definerer meldingens prioritering i forbindelse med meldingsutvekslingen.
 - Kjelde := SDP

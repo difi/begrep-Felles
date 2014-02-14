@@ -5,7 +5,7 @@ headtitle: Begrepskatalog for Sikker digital post -
 group: Egenskap
 ---
 
-- Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.local{{ page.url }}</a>
+- Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.no{{ page.url }}</a>
 - Term := {{page.title}}
 - Definisjon := Adresse til en leverandør av Postkassetjeneste
 - Kjelde := SDP
@@ -17,7 +17,7 @@ Adressen brukt for adressering er Organisasjonsnummeret for leverandører. Se ht
 h4. Xml skjema 
 
 <pre class="brush: xml; toolbar: false">
- <xs:element type="xs:string" name="LeverandoerAdresse" minOccurs="1" maxOccurs="1" sawsdl:modelReference="http://begrep.difi.no/leverandoerAdresse"/>
+ <xs:element type="xs:string" name="LeverandoerAdresse" minOccurs="1" maxOccurs="1" sawsdl:modelReference="http://begrep.difi.no{{ page.url }}"/>
 </pre>
 
 
