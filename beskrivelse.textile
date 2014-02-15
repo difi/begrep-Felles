@@ -1,0 +1,21 @@
+---
+layout: default
+title: beskrivelse
+headtitle: Begrepskatalog for Sikker digital post - 
+group: Egenskap
+---
+
+- Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.no{{ page.url }}</a>
+- Term := {{page.title}}
+- Definisjon := beskrivelse gir en tekstlig beskrivelse utover det som er gitt av andre datatyper som f.eks. "status":status.html 
+- Kjelde := DIFI-SDP
+- Kommentar := beskrivelse blir brukt i ulike klasser og i hver klasse er beskrivelse definert med egne kodeverk spesifik for den enkelte klassen.
+
+
+h4. Xml eksempel
+
+<pre class="brush: xml; toolbar: false">
+<beskrivelse>Selvvalgt</beskrivelse>
+</pre>
+
+

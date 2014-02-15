@@ -1,0 +1,22 @@
+---
+layout: default
+title: reservasjon
+headtitle: Begrepskatalog for Sikker digital post - 
+group: Egenskap
+---
+
+- Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.no{{ page.url }}</a>
+- Term := {{page.title}}
+- Definisjon := avgitt Forbehold i henhold til eForvaltningsforskriften
+- Kjelde := DIFI-SDP
+- Kommentar := Reservasjon avgitt av Innbygger, brukt i henhold til eForvaltningsforskriften § 15 a.
+- Gyldige verdier := | JA | NEI |
+- Standardverdi := NEI
+
+h4. Xml eksempel
+
+<pre class="brush: xml; toolbar: false">
+<reservasjon>JA</reservasjon>
+</pre>
+
+
