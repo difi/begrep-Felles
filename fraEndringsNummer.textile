@@ -7,7 +7,7 @@ group: Egenskap
 
 - Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.no{{ page.url }}</a>
 - Term := {{page.title}}
-- Definisjon := Et "endringsnummer":endringsnummer.html
+- Definisjon := Et "endringsNummer":endringsNummer.html
 - Kjelde := SDP
 - Kommentar := Brukes i forespørsler for å hente endringer fra et bestemt endringsNummer, inkludert fraEndringsNummeret.
 
