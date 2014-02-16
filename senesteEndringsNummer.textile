@@ -1,0 +1,27 @@
+---
+layout: default
+title: senesteEndringsNummer
+headtitle: Begrepskatalog for Sikker digital post - 
+group: Egenskap
+---
+
+- Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.no{{ page.url }}</a>
+- Term := {{page.title}}
+- Definisjon := Et "endringsnummer":endringsnummer.html
+- Kjelde := SDP
+- Kommentar := Beskriver siste endringsnummer i et register. Kan sammenlignes med "tilEndringsNummer":tilEndringsNummer.html for å vite om det finnes flere endringer i registeret.
+
+h4. Xml skjema 
+
+<pre class="brush: xml; toolbar: false">
+<xs:element type="xs:int" name="{{page.title}}" minOccurs="1" maxOccurs="1" sawsdl:modelReference="http://begrep.difi.no{{ page.url }}"/>
+</pre>
+
+h4. Xml eksempel
+
+<pre class="brush: xml; toolbar: false">
+<{{page.title}}>13414153611</{{page.title}}>
+
+</pre>
+
+
