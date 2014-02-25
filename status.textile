@@ -8,7 +8,8 @@ group: Egenskap
 - Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.no{{ page.url }}</a>
 - Term := {{page.title}}
 - Definisjon := status gir en tekstlig beskrivelse av tilstand
-- Kjelde := DIFI-SDP
+- Datatype := string
+- Kilde := DIFI
 - Kommentar := status blir brukt i ulike klasser og i hver klasse er status definert med egne kodeverk spesifik for den enkelte klassen.
 
 

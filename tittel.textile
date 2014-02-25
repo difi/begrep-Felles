@@ -8,7 +8,8 @@ group: Egenskap
 - Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.no{{ page.url }}</a>
 - Term := {{page.title}}
 - Definisjon := Tittel eller navn på arkivenheten
-- Kjelde := NOARK 5
+- Datatype := string
+- Kilde := NOARK 5
 - Kommentar := Vil vises til Innbygger. Registreres manuelt eller hentes automatisk fra innholdet i arkivdokumentet. 
 
 

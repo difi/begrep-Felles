@@ -8,8 +8,9 @@ group: Egenskap
 - Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.no{{ page.url }}</a>
 - Term := {{page.title}}
 - Definisjon :=  Navn på person eller organisasjon som er avsender eller mottaker av dokumentet
-- Kjelde := NOARK 5
+- Datatype := string
+- Kilde := NOARK 5
 - Kommentar := Navn på korrespondansepart forekommer én gang innenfor objektet korrespondansepart, men denne kan forekomme flere ganger innenfor en journalpost.   Identifikasjon i NOARK 5: M400. 
 
-h4. Eigenskapar
+h4. Attributer
 

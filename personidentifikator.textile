@@ -8,18 +8,10 @@ group: Egenskap
 - Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.no{{ page.url }}</a>
 - Term := {{page.title}}
 - Definisjon := Identifikasjon av en person
-- Kjelde := SDP
+- Datatype := string
+- Kilde := DIFI
 - Kommentar := personidentifikator er er enten et fødselsnummer et gyldig D-nummer.
 
-h4. Xml skjema 
-
-<pre class="brush: xml; toolbar: false">
-<xs:simpleType name="personidentifikatorType" sawsdl:modelReference="http://begrep.difi.no{{ page.url }}">
-        <xs:restriction base="xs:string">
-            <xs:length value="11"/>
-        </xs:restriction>
-    </xs:simpleType>
-</pre>
 
 h4. Xml eksempel
 

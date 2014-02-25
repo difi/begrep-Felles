@@ -8,7 +8,8 @@ group: Egenskap
 - Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.no{{ page.url }}</a>
 - Term := {{page.title}}
 - Definisjon :=  Land dersom adressen er i utlandet
-- Kjelde := NOARK 5
+- Datatype := string
+- Kilde := NOARK 5
 - Kommentar := Brukt i forbindelse med Print. Identifikasjon i NOARK 5: M409. 
 
 

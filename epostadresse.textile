@@ -1,6 +1,6 @@
 ---
 layout: default
-title: epostAdresse
+title: epostadresse
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
 ---
@@ -8,12 +8,12 @@ group: Egenskap
 - Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.no{{ page.url }}</a>
 - Term := {{page.title}}
 - Definisjon := Adresse til en elektronisk postkasse på Internett
-- Kjelde := SDP
+- Datatype := string
+- Kilde := DIFI
 - Kommentar := En epostadresse lagret i Digital kontaktregister har følgende format:
 
 * Ein tekststreng på formatet "^[\\w-\\+]+(?:\\.[\\w-\\+]+)*@(?:[\\w-]+\.)+[a-zA-Z]{2,7}$"
 * Klassifikasjon er Open Web Application Security Project (OWASP): Regulære uttrykk for validering
-
 
 
 

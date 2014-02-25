@@ -1,6 +1,6 @@
 ---
 layout: default
-title: mobilTelefonNummer
+title: mobiltelefonnummer
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
 ---
@@ -8,7 +8,8 @@ group: Egenskap
 - Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.no{{ page.url }}</a>
 - Term := {{page.title}}
 - Definisjon := Et internasjonalt mobiltelefonnummer.
-- Kjelde := SDP
+- Datatype := string
+- Kilde := DIFI
 - Kommentar := Et mobiltelefonnummer lagret i Digital kontaktregister har følgende format:
 
 * En tekststreng på formatet "^\\+?[- _0-9]+$"

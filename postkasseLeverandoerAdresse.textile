@@ -1,6 +1,6 @@
 ---
 layout: default
-title: postkasseLeverandoerAdresse
+title: postkasseleverandoerAdresse
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
 ---
@@ -8,17 +8,14 @@ group: Egenskap
 - Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.no{{ page.url }}</a>
 - Term := {{page.title}}
 - Definisjon := Adresse til en leverandør av Postkassetjeneste
-- Kjelde := SDP
+- Datatype := string
+- Kilde := DIFI
 - Kommentar := Dette er en unik adresse for en leverandør, enten en Postkasseleverandør eller Utskrifts og forsendelsestjeneeste leverandør . 
 Adressen brukt for adressering er Organisasjonsnummeret for leverandører. Se http://begrep.difi.no/Felles/Organisasjonsnummer
 
 
 
-h4. Xml skjema 
-
-<pre class="brush: xml; toolbar: false">
- <xs:element type="xs:string" name="LeverandoerAdresse" minOccurs="1" maxOccurs="1" sawsdl:modelReference="http://begrep.difi.no{{ page.url }}"/>
-</pre>
+h4. Xml eksempel
 
 
 

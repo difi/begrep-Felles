@@ -8,7 +8,8 @@ group: Egenskap
 - Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.no{{ page.url }}</a>
 - Term := {{page.title}}
 - Definisjon := Definerer meldingens prioritering i forbindelse med meldingsutvekslingen.
-- Kjelde := SDP
+- Datatype := string
+- Kilde := DIFI
 - Kommentar := Ved prioritetType=1 vil meldingen behandles forran alle prioritetType=2 meldinger. 
 Meldingen vil sendes til Innbygger sin postkasse innen minutter. 
    *Meldinger med prioritetType=1 kan medføre høyere kostnader for Avsender.*

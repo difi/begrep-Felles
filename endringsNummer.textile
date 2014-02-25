@@ -7,22 +7,16 @@ group: Egenskap
 
 - Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.no{{ page.url }}</a>
 - Term := {{page.title}}
-- Definisjon := Et nummer som beskriver hver endring i et register en unik identifikator
-- Kjelde := SDP
-- Kommentar := Et økende løpenummer som øker med 1 for hver unik endring i et register. Brukt for at Virksomheter kan følge alle endringer i et register for å kunne holde en lokal kopi synkronisert.
-Brukt i Kontakt og reservasjonsregisteret.
+- Definisjon := Et nummer som identifiserer en endring i et register.
+- Datatype := int
+- Kilde := DIFI
+- Kommentar := Enhver endring i Kontakt- og reservasjonsregisteret tilordnes ett løpenummer som øker med en (1) for hver endring. Dette brukes for at virksomheter som vedlikeholder lokale kopier av registeret enkelt skal ha sporbarhet på alle endringer.
 
-h4. Xml skjema 
-
-<pre class="brush: xml; toolbar: false">
-<xs:element type="xs:int" name="{{page.title}}" minOccurs="1" maxOccurs="1" sawsdl:modelReference="http://begrep.difi.no{{ page.url }}"/>
-</pre>
 
 h4. Xml eksempel
 
 <pre class="brush: xml; toolbar: false">
 <{{page.title}}>13414153611</{{page.title}}>
-
 </pre>
 
 

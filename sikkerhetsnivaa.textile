@@ -8,7 +8,8 @@ group: Egenskap
 - Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.no{{ page.url }}</a>
 - Term := {{page.title}}
 - Definisjon := Definerer hvilket autentiseringsnivå som kreves for at dokumentet skal åpnes
-- Kjelde := Rammeverk for autentisering og uavviselighet i elektronisk kommunikasjon med og i offentlig sektor
+- Datatype := int
+- Kilde := Rammeverk for autentisering og uavviselighet i elektronisk kommunikasjon med og i offentlig sektor
 - Kommentar := "Rammeverk for autentisering og uavviselighet i elektronisk kommunikasjon med og i offentlig sektor":http://www.regjeringen.no/nb/dep/fad/dok/lover-og-regler/retningslinjer/2008/rammeverk-for-autentisering-og-uavviseli/4.html?id=505929
 - Gyldige verdier := | 3 | 4 |
 - Standardverdi := 4

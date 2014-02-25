@@ -8,7 +8,8 @@ group: Egenskap
 - Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.no{{ page.url }}</a>
 - Term := {{page.title}}
 - Definisjon := Kommunikasjonskanal for utsending av varsel og påminnelse
-- Kjelde := SDP
+- Datatype := string
+- Kilde := DIFI
 - Kommentar := Varsling og påminnelsesmeldinger skal sendes på den kanal som blir spesifisert. Kanalen SMS er priset.
 - Gyldige verdier := | epost | sms |
 - Standardverdi := epost
