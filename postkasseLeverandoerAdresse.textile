@@ -3,12 +3,13 @@ layout: default
 title: postkasseleverandoerAdresse
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
+datatype: string
 ---
 
 - Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.no{{ page.url }}</a>
 - Term := {{page.title}}
 - Definisjon := Adresse til en leverandør av Postkassetjeneste
-- Datatype := string
+- Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}
 - Kilde := DIFI
 - Kommentar := Dette er en unik adresse for en leverandør, enten en Postkasseleverandør eller Utskrifts og forsendelsestjeneeste leverandør . 
 Adressen brukt for adressering er Organisasjonsnummeret for leverandører. Se http://begrep.difi.no/Felles/Organisasjonsnummer

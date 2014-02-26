@@ -3,12 +3,13 @@ layout: default
 title: tilEndringsNummer
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
+datatype: long
 ---
 
 - Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.no{{ page.url }}</a>
 - Term := {{page.title}}
 - Definisjon := Et "endringsNummer":endringsNummer.html
-- Datatype := int
+- Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}
 - Kilde := DIFI
 - Kommentar := Leveres ut i responser for å beskrive hvilke endringer som er inkludert i svaret.
 

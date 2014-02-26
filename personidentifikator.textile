@@ -3,12 +3,13 @@ layout: default
 title: personidentifikator
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
+datatype: string
 ---
 
 - Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.no{{ page.url }}</a>
 - Term := {{page.title}}
 - Definisjon := Identifikasjon av en person
-- Datatype := string
+- Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}
 - Kilde := DIFI
 - Kommentar := personidentifikator er er enten et fødselsnummer et gyldig D-nummer.
 

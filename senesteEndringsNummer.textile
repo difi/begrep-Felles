@@ -3,12 +3,13 @@ layout: default
 title: senesteEndringsNummer
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
+datatype: long
 ---
 
 - Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.no{{ page.url }}</a>
 - Term := {{page.title}}
 - Definisjon := Et "endringsNummer":endringsNummer.html
-- Datatype := int
+- Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}
 - Kilde := DIFI
 - Kommentar := Beskriver siste endringsnummer i et register. Kan sammenlignes med "tilEndringsNummer":tilEndringsNummer.html for å vite om det finnes flere endringer i registeret.
 

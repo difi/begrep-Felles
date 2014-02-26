@@ -3,12 +3,13 @@ layout: default
 title: Sikkerhetsnivaa
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
+datatype: int
 ---
 
 - Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.no{{ page.url }}</a>
 - Term := {{page.title}}
 - Definisjon := Definerer hvilket autentiseringsnivå som kreves for at dokumentet skal åpnes
-- Datatype := int
+- Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}
 - Kilde := Rammeverk for autentisering og uavviselighet i elektronisk kommunikasjon med og i offentlig sektor
 - Kommentar := "Rammeverk for autentisering og uavviselighet i elektronisk kommunikasjon med og i offentlig sektor":http://www.regjeringen.no/nb/dep/fad/dok/lover-og-regler/retningslinjer/2008/rammeverk-for-autentisering-og-uavviseli/4.html?id=505929
 - Gyldige verdier := | 3 | 4 |

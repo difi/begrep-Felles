@@ -12,12 +12,6 @@ group: Egenskap
 - Kilde := DIFI
 - Kommentar := informasjonsbehov brukes i forespørsler til registre for å definere hvilke opplysninger som skal utleveres til virksomheten.
 
-h4. Xml skjema 
-
-<pre class="brush: xml; toolbar: false">
-<xs:element type="xs:string" name="{{page.title}}" minOccurs="1" maxOccurs="1" sawsdl:modelReference="http://begrep.difi.no{{ page.url }}"/>
-</pre>
-
 h4. Xml eksempel
 
 <pre class="brush: xml; toolbar: false">

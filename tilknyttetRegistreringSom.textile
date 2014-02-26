@@ -3,12 +3,13 @@ layout: default
 title: tilknyttetRegistreringSom
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
+datatype: string
 ---
 
 - Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.no{{ page.url }}</a>
 - Term := {{page.title}}
 - Definisjon := Angivelse av hvilken "rolle" dokumentet har i forhold til registreringen
-- Datatype := string
+- Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}
 - Kilde := NOARK 5
 - Kommentar := Obligatoriske verdier:	"Hoveddokument",	"Vedlegg"
 

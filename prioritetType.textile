@@ -3,12 +3,13 @@ layout: default
 title: prioritetType
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
+datatype: string
 ---
 
 - Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.no{{ page.url }}</a>
 - Term := {{page.title}}
 - Definisjon := Definerer meldingens prioritering i forbindelse med meldingsutvekslingen.
-- Datatype := string
+- Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}
 - Kilde := DIFI
 - Kommentar := Ved prioritetType=1 vil meldingen behandles forran alle prioritetType=2 meldinger. 
 Meldingen vil sendes til Innbygger sin postkasse innen minutter. 

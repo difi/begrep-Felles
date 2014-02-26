@@ -3,12 +3,13 @@ layout: default
 title: VisningsDato
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
+datatype: dateType
 ---
 
 - Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.no{{ page.url }}</a>
 - Term := {{page.title}}
 - Definisjon := Data og klokkeslett
-- Datatype := dateTime
+- Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}
 - Kilde := DIFI
 - Kommentar := Tidspunkt for når en melding skal tilgjengeliggjøres for Innbygger i Innbygger sin postkasse. Dokumentet vil leveres til postkassen før dette tidspunkt, men ikke være synlig/tilgjengelig for Innbygger.
 

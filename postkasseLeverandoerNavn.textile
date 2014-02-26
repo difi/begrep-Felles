@@ -3,12 +3,13 @@ layout: default
 title: postkasseleverandoerNavn
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
+datatype: string
 ---
 
 - Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.no{{ page.url }}</a>
 - Term := {{page.title}}
 - Definisjon := Navn på leverandør av Postkassetjeneste
-- Datatype := string
+- Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}
 - Kilde := DIFI
 - Kommentar := Dette er navn på Leverandør. Navnet kan brukes i dialog med Innbygger. 
 - Gyldige verdier := | DigiPost | eBoks |

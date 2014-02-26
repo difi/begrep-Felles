@@ -3,12 +3,13 @@ layout: default
 title: beskrivelse
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
+datatype: string
 ---
 
 - Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.no{{ page.url }}</a>
 - Term := {{page.title}}
 - Definisjon := beskrivelse gir en tekstlig beskrivelse utover det som er gitt av andre datatyper som f.eks. "status":status.html 
-- Datatype := string
+- Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}
 - Kilde := DIFI
 - Kommentar := beskrivelse blir brukt i ulike klasser og i hver klasse er beskrivelse definert med egne kodeverk spesifik for den enkelte klassen.
 
