@@ -17,7 +17,7 @@ datatype: string
 h4. Xml eksempel
 
 <pre class="brush: xml; toolbar: false">
-<status>SLETTET</status>
+<{{page.title}}>SLETTET</{{page.title}}>
 </pre>
 
 

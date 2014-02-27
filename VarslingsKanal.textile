@@ -1,6 +1,6 @@
 ---
 layout: default
-title: VarslingsKanal
+title: varslingsKanal
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
 datatype: string
@@ -18,7 +18,7 @@ datatype: string
 h4. Xml eksempel
 
 <pre class="brush: xml; toolbar: false">
-<VarslingsKanal>sms</VarslingsKanal>
+<{{page.title}}>sms</{{page.title}}>
 </pre>
 
 

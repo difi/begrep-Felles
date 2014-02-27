@@ -12,11 +12,16 @@ datatype: string
 - Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}
 - Kilde := DIFI
 - Kommentar := Dette er en unik adresse for en leverandør, enten en Postkasseleverandør eller Utskrifts og forsendelsestjeneeste leverandør . 
-Adressen brukt for adressering er Organisasjonsnummeret for leverandører. Se http://begrep.difi.no/Felles/Organisasjonsnummer
+Adressen brukt for adressering er "Organisasjonsnummeret":http://www.brreg.no/samordning/organisasjonsnummeret.html for leverandører. Se
 
 
 
 h4. Xml eksempel
+
+<pre class="brush: xml; toolbar: false">
+<{{page.title}}>987654321</{{page.title}}>
+
+</pre>
 
 
 

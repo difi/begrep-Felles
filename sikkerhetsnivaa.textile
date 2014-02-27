@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Sikkerhetsnivaa
+title: sikkerhetsnivaa
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
 datatype: int
@@ -18,7 +18,7 @@ datatype: int
 h4. Xml eksempel
 
 <pre class="brush: xml; toolbar: false">
-<Sikkerhetsnivaa>3</Sikkerhetsnivaa>
+<{{page.title}}>3</{{page.title}}>
 </pre>
 
 

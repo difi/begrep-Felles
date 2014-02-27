@@ -22,7 +22,7 @@ Meldingen vil sendes til Innbygger sin postkasse innen minutter.
 h4. Xml eksempel
 
 <pre class="brush: xml; toolbar: false">
-<prioritetType>2</prioritetType>
+<{{page.title}}>2</{{page.title}}>
 </pre>
 
 

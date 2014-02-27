@@ -25,7 +25,7 @@ datatype: string
 h4. Xml eksempel
 
 <pre class="brush: xml; toolbar: false">
-<Mobiltelefonnummer>+4799884422</Mobiltelefonnummer>
+<{{page.title}}>+4799884422</{{page.title}}>
 </pre>
 
 

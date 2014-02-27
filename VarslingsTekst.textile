@@ -1,6 +1,6 @@
 ---
 layout: default
-title: VarslingsTekst
+title: varslingsTekst
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
 datatype: string
@@ -17,7 +17,7 @@ datatype: string
 h4. Xml eksempel
 
 <pre class="brush: xml; toolbar: false">
-<VarslingsTekst>Tilbud om bostøtte til din hybelkanin. Husk svarfrist på dette dokumentet er 24.12 2013.</VarslingsTekst>
+<{{page.title}}>Tilbud om bostøtte til din hybelkanin. Husk svarfrist på dette dokumentet er 24.12 2013.</{{page.title}}>
 </pre>
 
 

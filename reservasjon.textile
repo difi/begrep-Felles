@@ -18,7 +18,7 @@ datatype: string
 h4. Xml eksempel
 
 <pre class="brush: xml; toolbar: false">
-<reservasjon>JA</reservasjon>
+<{{page.title}}>JA</{{page.title}}>
 </pre>
 
 

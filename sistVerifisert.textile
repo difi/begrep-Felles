@@ -19,7 +19,7 @@ F.eks for mobiltelefonnummer betyr dette at en SMS er sendt til mobilnummeret og
 h4. Xml eksempel
 
 <pre class="brush: xml; toolbar: false">
-<sistVerifisert>2014-02-06T08:15:41.683Z</sistVerifisert>
+<{{page.title}}>2014-02-06T08:15:41.683Z</{{page.title}}>
 
 </pre>
 
