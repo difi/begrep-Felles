@@ -6,7 +6,7 @@ group: Egenskap
 datatype: int
 ---
 
-- Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.no{{ page.url }}</a>
+- Identifikator := <a href="/Felles/{{page.title}}">http://begrep.difi.no{{ page.url }}</a>
 - Term := {{page.title}}
 - Definisjon := Definerer hvilket autentiseringsnivå som kreves for at dokumentet skal åpnes
 - Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}

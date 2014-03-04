@@ -6,13 +6,13 @@ group: Egenskap
 datatype: string
 ---
 
-- Identifikator := <a href="/Felles/{{page.title}}.html">http://begrep.difi.no{{ page.url }}</a>
+- Identifikator := <a href="/Felles/{{page.title}}">http://begrep.difi.no{{ page.url }}</a>
 - Term := {{page.title}}
 - Definisjon := Adresse til en leverandør av Postkassetjeneste
 - Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}
 - Kilde := DIFI
 - Kommentar := Dette er en unik adresse for en leverandør, enten en Postkasseleverandør eller Utskrifts og forsendelsestjeneeste leverandør . 
-Adressen brukt for adressering er "Organisasjonsnummeret":http://www.brreg.no/samordning/organisasjonsnummeret.html for leverandører. Se
+Adressen brukt for adressering er "Organisasjonsnummeret":http://www.brreg.no/samordning/organisasjonsnummeret for leverandører. Se
 
 
 
