@@ -18,8 +18,12 @@ For definisjon av postkasseadressen hos Digipost se: https://www.digipost.no/pla
 
 h4. Xml eksempel
 
-
 Eksempel på en gyldig Digipost-adresse: ola.nordmann#9YDT
+
+<pre class="brush: xml; toolbar: false">
+ <ns2:postkasseadresse>ola.nordmann#9YDT</ns2:postkasseadresse>
+</pre>
+
 
 
 

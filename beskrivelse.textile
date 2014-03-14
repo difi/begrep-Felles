@@ -17,7 +17,7 @@ datatype: string
 h4. Xml eksempel
 
 <pre class="brush: xml; toolbar: false">
-<beskrivelse>Selvvalgt</beskrivelse>
+<ns2:beskrivelse>Selvvalgt</ns2:beskrivelse>
 </pre>
 
 

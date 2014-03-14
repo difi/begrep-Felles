@@ -15,8 +15,9 @@ group: Egenskap
 h4. Xml eksempel
 
 <pre class="brush: xml; toolbar: false">
-<{{page.title}}>Kontaktinformasjon</{{page.title}}>
-
+ <ns:informasjonsbehov>Kontaktinfo</ns:informasjonsbehov>
+ <ns:informasjonsbehov>Sertifikat</ns:informasjonsbehov>
+ <ns:informasjonsbehov>SikkerDigitalPost</ns:informasjonsbehov>
 </pre>
 
 

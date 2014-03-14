@@ -19,7 +19,7 @@ Adressen brukt for adressering er "Organisasjonsnummeret":http://www.brreg.no/sa
 h4. Xml eksempel
 
 <pre class="brush: xml; toolbar: false">
-<{{page.title}}>987654321</{{page.title}}>
+<ns2:postkasseleverandoerAdresse>012345678</ns2:postkasseleverandoerAdresse>
 
 </pre>
 

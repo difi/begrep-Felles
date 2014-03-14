@@ -17,8 +17,7 @@ datatype: long
 h4. Xml eksempel
 
 <pre class="brush: xml; toolbar: false">
-<{{page.title}}>13414153611</{{page.title}}>
-
+<ns:HentEndringerForespoersel fraEndringsNummer="1001">    
 </pre>
 
 

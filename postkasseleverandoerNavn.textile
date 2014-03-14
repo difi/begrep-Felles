@@ -12,7 +12,7 @@ datatype: string
 - Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}
 - Kilde := DIFI
 - Kommentar := Dette er navn på Leverandør. Navnet kan brukes i dialog med Innbygger. 
-- Gyldige verdier := | DigiPost | eBoks |
+- Gyldige verdier := | Digipost | eBoks |
 
 h4. Xml eksempel
 
@@ -21,3 +21,7 @@ h4. Xml eksempel
 
 
 
+<pre class="brush: xml; toolbar: false">
+<{{page.title}}>Digipost</{{page.title}}>
+
+</pre>

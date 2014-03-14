@@ -16,8 +16,7 @@ datatype: dateTime
 h4. Xml eksempel
 
 <pre class="brush: xml; toolbar: false">
-<{{page.title}}>2014-02-06T08:15:41.683Z</{{page.title}}>
-
+<ns2:Mobiltelefonnummer sistOppdatert="2014-02-25T13:08:00.000+01:00" sistVerifisert="2013-10-21T10:09:28.000+02:00">12121212</ns2:Mobiltelefonnummer>
 </pre>
 
 
