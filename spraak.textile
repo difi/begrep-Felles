@@ -1,0 +1,25 @@
+---
+layout: default
+title: spraak
+headtitle: Begrepskatalog for Sikker digital post - 
+group: Egenskap
+datatype: string
+---
+
+- Identifikator := <a href="/Felles/{{page.title}}">http://begrep.difi.no{{ page.url }}</a>
+- Term := {{page.title}}
+- Definisjon :=  Språkkode
+- Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}
+- Kilde := DIFI
+- Kommentar := Språkkode angitt etter ISO 639-1 
+
+h4. Eksempel
+
+|_. ISO 639-1  kode |_. Språk |
+| nb | Bokmål |
+| nn | nynorsk |
+| se | Samisk |
+| en | Engelsk |
+
+
+
