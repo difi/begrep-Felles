@@ -12,7 +12,7 @@ h4. Tekst
 - Term := {{page.title}}
 - Definisjon := Språksensitiv tekst-streng
 - Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}
-- Kilde := 
+- Kilde := DIFI 
 - Kommentar := Språksensitiv tekst-streng. Bør vurdere hvordan man skal håndtere "default" språk 
 
 h4. Egenskaper
