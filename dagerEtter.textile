@@ -1,0 +1,26 @@
+---
+layout: default
+title: dagerEtter
+headtitle: Begrepskatalog for Sikker digital post - 
+group: Egenskap
+datatype: nonNegativeInteger
+---
+
+- Identifikator := <a href="/Felles/{{page.title}}">http://begrep.difi.no{{ page.url }}</a>
+- Term := {{page.title}}
+- Definisjon := Et nummer som identifiserer en bestemt dag etter en allerede angit dag.
+- Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}
+- Kilde := DIFI
+- Kommentar := Et tall som angir antall dager etter en bestemt virkningsdato eller opprettingsdato. 
+
+
+h4. Xml eksempel
+
+<pre class="brush: xml; toolbar: false">
+
+      <repetisjoner>
+        <dagerEtter>0</dagerEtter>
+        <dagerEtter>7</dagerEtter>
+      </repetisjoner>
+	  
+</pre>
