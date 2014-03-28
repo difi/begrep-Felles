@@ -1,6 +1,6 @@
 ---
 layout: default
-title: skjerming
+title: aapningskvittering
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
 datatype: string
@@ -8,17 +8,18 @@ datatype: string
 
 - Identifikator := "http://begrep.difi.no{{ page.url  | remove:".html" }}":{{page.title}}
 - Term := {{page.title}}
-- Definisjon := Angivelse av om metadata om dokument skal skjermes
+- Definisjon := Definerer behovet for Åpningskvittering
 - Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}
 - Kilde := DIFI
-- Kommentar := Dersom Skjerming=JA vil Tittel ikke brukes i varsel til Innbygger og Innbygger vil ikke se dokument tittel før Innbygger er autentisert på tilstrekkelig sikkerhetsnivå.
+- Kommentar := Dersom Dataansvarlig ønsker å at Innbygger aktivt skal bli bedt om å sende tilbake en Åpningskvittering ved åpning av Digital Post kan det spesifiseres med dette attributtet. 
+Verdien JA vil kreve at Innbygger samtykker til at kvittering blir sendt tilbake til Databehandler ved åpning av den digital posten.
 - Gyldige verdier := | JA | NEI |
 - Standardverdi := NEI
 
 h4. Xml eksempel
 
 <pre class="brush: xml; toolbar: false">
-<{{page.title}}>JA</{{page.title}}>
+<{{page.title}}>NEI</{{page.title}}>
 </pre>
 
 

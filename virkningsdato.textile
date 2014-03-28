@@ -1,24 +1,23 @@
 ---
 layout: default
-title: varslingsKanal
+title: virkningsdato
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
-datatype: string
+datatype: date
 ---
 
 - Identifikator := "http://begrep.difi.no{{ page.url  | remove:".html" }}":{{page.title}}
 - Term := {{page.title}}
-- Definisjon := Kommunikasjonskanal for utsending av varsel og påminnelse
+- Definisjon := Dato for når et element skal være aktivt.
 - Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}
 - Kilde := DIFI
-- Kommentar := Varsling og påminnelsesmeldinger skal sendes på den kanal som blir spesifisert. Kanalen SMS er priset.
-- Gyldige verdier := | epost | sms |
-- Standardverdi := epost
+- Kommentar := Tidspunkt/dato for når en melding skal tilgjengeliggjøres for Innbygger i Innbygger sin postkasse. Dokumentet vil leveres til postkassen før dette tidspunkt, men ikke være synlig/tilgjengelig for Innbygger.
+
 
 h4. Xml eksempel
 
 <pre class="brush: xml; toolbar: false">
-<{{page.title}}>sms</{{page.title}}>
+<virkningsdato>2013-12-11</virkningsdato>
 </pre>
 
 

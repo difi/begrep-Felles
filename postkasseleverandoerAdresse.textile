@@ -6,7 +6,7 @@ group: Egenskap
 datatype: string
 ---
 
-- Identifikator := <a href="/Felles/{{page.title}}">http://begrep.difi.no{{ page.url }}</a>
+- Identifikator := "http://begrep.difi.no{{ page.url  | remove:".html" }}":{{page.title}}
 - Term := {{page.title}}
 - Definisjon := Adresse til en leverandør av Postkassetjeneste
 - Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}

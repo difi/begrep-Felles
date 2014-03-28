@@ -6,7 +6,7 @@ group: Egenskap
 datatype: X509Certifiate
 ---
 
-- Identifikator := <a href="/Felles/{{page.title}}">http://begrep.difi.no{{ page.url }}</a>
+- Identifikator := "http://begrep.difi.no{{ page.url  | remove:".html" }}":{{page.title}}
 - Term := {{page.title}}
 - Definisjon := Et X509 Sertifikat
 - Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmldsig-core/#sec-X509Data

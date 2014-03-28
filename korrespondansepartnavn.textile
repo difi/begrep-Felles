@@ -5,7 +5,7 @@ headtitle: Begrepskatalog for Sikker digital post -
 group: Egenskap
 ---
 
-- Identifikator := <a href="/Felles/{{page.title}}">http://begrep.difi.no{{ page.url }}</a>
+- Identifikator := "http://begrep.difi.no{{ page.url  | remove:".html" }}":{{page.title}}
 - Term := {{page.title}}
 - Definisjon :=  Navn på person eller organisasjon som er avsender eller mottaker av dokumentet
 - Datatype := string

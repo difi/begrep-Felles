@@ -6,9 +6,7 @@ group: Egenskap
 datatype: string
 ---
 
-h4. Tekst
-
-- Identifikator := <a href="/Felles/{{page.title}}">http://begrep.difi.no{{ page.url }}</a>
+- Identifikator := "http://begrep.difi.no{{ page.url  | remove:".html" }}":{{page.title}}
 - Term := {{page.title}}
 - Definisjon := Språksensitiv tekst-streng
 - Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}
