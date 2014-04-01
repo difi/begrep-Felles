@@ -11,7 +11,7 @@ datatype: string
 - Definisjon := Identifikasjon av en ansvarlig avsenderenhet
 - Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}
 - Kilde := DIFI
-- Kommentar := Brukt for å identifisere en ansvarlig enhet innen for en virksomhet. Maks 100 tegn.
+- Kommentar := Brukt for å identifisere en ansvarlig enhet innen for en virksomhet. I Sikker digital posttjenteste tildeles avsenderidentifikator ved tilkobling til tjenesten. Maks 100 tegn.
 
 
 h4. Xml eksempel
