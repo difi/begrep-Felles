@@ -1,6 +1,6 @@
 ---
 layout: default
-title: varslingsKanal
+title: varslingskanal
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
 datatype: string
