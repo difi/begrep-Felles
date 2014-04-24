@@ -27,7 +27,7 @@ For disse mobiltelefonnummer er det følgende validering:
 
 * første siffer (etter evt. landkode) er 9 eller 4
 
-Dette er i henhold til "Nummerplan (E.164)":http://no.wikipedia.org/wiki/Nummerplan_%28E.164%29
+Dette er i henhold til "Nummerplan E.164":http://no.wikipedia.org/wiki/Nummerplan_%28E.164%29
 
 
 h4. Xml eksempel

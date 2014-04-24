@@ -13,6 +13,8 @@ datatype: string
 - Kilde := DIFI
 - Kommentar := En tekst knyttet til denne forsendelsen som legges med i varslinger og påminnelser til Innbygger. Teksten brukes kun i forbindelse med varsling på epost.
 
+* For epost varsel er maks tillatt med 500 tegn.
+* For sms varsel er maks tillatt med 160 tegn. 
 
 h4. Xml eksempel
 
