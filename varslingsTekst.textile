@@ -3,13 +3,13 @@ layout: default
 title: varslingsTekst
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
-datatype: string
+datatype: tekst
 ---
 
 - Identifikator := "http://begrep.difi.no{{ page.url  | remove:".html" }}":{{page.title}}
 - Term := {{page.title}}
-- Definisjon := Tekst bruk i forbindelse med varsling på epost
-- Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}
+- Definisjon := Tekst bruk i forbindelse med varsling på epost eller sms.
+- Datatype := "tekst":tekst
 - Kilde := DIFI
 - Kommentar := En tekst knyttet til denne forsendelsen som legges med i varslinger og påminnelser til Innbygger. Teksten brukes kun i forbindelse med varsling på epost.
 
@@ -19,7 +19,7 @@ datatype: string
 h4. Xml eksempel
 
 <pre class="brush: xml; toolbar: false">
-<{{page.title}}>Tilbud om bostøtte til din hybelkanin. Husk svarfrist på dette dokumentet er 24.12 2013.</{{page.title}}>
+<{{page.title}}><Tekst lang="no">Tilbud om bostøtte til din hybelkanin. Husk svarfrist på dette dokumentet er 24.12 2013.</Tekst></{{page.title}}>
 </pre>
 
 
