@@ -3,21 +3,28 @@ layout: default
 title: tittel
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
-datatype: tekst
+datatype: string
 ---
 
 - Identifikator := "http://begrep.difi.no{{ page.url  | remove:".html" }}":{{page.title}}
 - Term := {{page.title}}
 - Definisjon := Tittel eller navn på arkivenheten
-- Datatype := "tekst":tekst
+- Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}
 - Kilde := NOARK 5
 - Kommentar := Vil vises til Innbygger. Registreres manuelt eller hentes automatisk fra innholdet i arkivdokumentet. 
+
+h3. Attributer
+
+Tittelen har et språk attributt som beskriver teksten. Språk attributtet kan brukes for å understøtte funksjoner som opplesing av tekst.
+
+{background:#ddd}.|_. Identifikator |_. Kardinalitet |_. Datatype |
+| lang | 1..1 | "spraak":spraak |
 
 
 h4. Xml eksempel
 
 <pre class="brush: xml; toolbar: false">
-<{{page.title}}><Tekst lang="no">Vedtaksbrev - støtte til utdanning - saksnr. 2013/1111</Tekst></{{page.title}}>
+<{{page.title}} lang="no">Vedtaksbrev - støtte til utdanning - saksnr. 2013/1111</{{page.title}}>
 </pre>
 
 
