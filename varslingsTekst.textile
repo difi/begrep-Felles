@@ -3,23 +3,31 @@ layout: default
 title: varslingsTekst
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
-datatype: tekst
+datatype: string
 ---
 
 - Identifikator := "http://begrep.difi.no{{ page.url  | remove:".html" }}":{{page.title}}
 - Term := {{page.title}}
 - Definisjon := Tekst bruk i forbindelse med varsling på epost eller sms.
-- Datatype := "tekst":tekst
+- Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}
 - Kilde := DIFI
 - Kommentar := En tekst knyttet til denne forsendelsen som legges med i varslinger og påminnelser til Innbygger. Teksten brukes kun i forbindelse med varsling på epost.
 
 * For epost varsel er maks tillatt med 500 tegn.
 * For sms varsel er maks tillatt med 160 tegn. 
 
+
+h3. Attributer
+
+Tittelen har et språk attributt som beskriver teksten. Språk attributtet kan brukes for å understøtte funksjoner som opplesing av tekst.
+
+{background:#ddd}.|_. Identifikator |_. Kardinalitet |_. Datatype |
+| lang | 1..1 | "spraak":spraak |
+
 h4. Xml eksempel
 
 <pre class="brush: xml; toolbar: false">
-<{{page.title}}><Tekst lang="no">Tilbud om bostøtte til din hybelkanin. Husk svarfrist på dette dokumentet er 24.12 2013.</Tekst></{{page.title}}>
+<{{page.title}} lang="no">Tilbud om bostøtte til din hybelkanin. Husk svarfrist på dette dokumentet er 24.12 2013.</{{page.title}}>
 </pre>
 
 
