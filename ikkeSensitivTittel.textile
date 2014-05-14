@@ -1,6 +1,6 @@
 ---
 layout: default
-title: tittel
+title: ikkeSensitivTittel
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
 datatype: string
@@ -8,10 +8,12 @@ datatype: string
 
 - Identifikator := "http://begrep.difi.no{{ page.url  | remove:".html" }}":{{page.title}}
 - Term := {{page.title}}
-- Definisjon := Tittel eller navn på arkivenheten
+- Definisjon := En tittel for en forsendelse som ikke inneholder sensitiv informasjon
 - Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}
-- Kilde := NOARK 5
-- Kommentar := Vil vises til Innbygger. Registreres manuelt eller hentes automatisk fra innholdet i arkivdokumentet. 
+- Kilde := DIFI
+- Kommentar := Vil vises til Innbygger, brukes i varslinger/påminnelser på e-post og sms til Innbygger. Skal ikke inneholde sensitiv informasjon.
+kan brukes på lavere sikkerhetsnivå enn det selve dokumentet er klassifisert på.
+
 
 h3. Attributer
 
@@ -19,6 +21,8 @@ Tittelen har et språk attributt som beskriver teksten. Språk attributtet kan b
 
 {background:#ddd}.|_. Identifikator |_. Kardinalitet |_. Datatype |
 | lang | 1..1 | "spraak":spraak |
+
+
 
 
 h4. Xml eksempel
