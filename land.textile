@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Land
+title: land
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
 datatype: string

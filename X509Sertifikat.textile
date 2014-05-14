@@ -1,6 +1,6 @@
 ---
 layout: default
-title: X509Sertifikat
+title: x509Sertifikat
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
 datatype: X509Certifiate
