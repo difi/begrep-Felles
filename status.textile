@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: egenskap
 title: status
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
@@ -13,10 +13,9 @@ datatype: string
 - Kilde := DIFI
 - Kommentar := status blir brukt i ulike klasser og i hver klasse er status definert med egne kodeverk spesifik for den enkelte klassen.
 
+h3. Xml eksempel
 
-h4. Xml eksempel
-
-<pre class="brush: xml; toolbar: false">
+<pre>
 <ns2:status>AKTIV</ns2:status>
 </pre>
 

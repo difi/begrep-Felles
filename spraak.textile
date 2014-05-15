@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: egenskap
 title: spraak
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
@@ -13,8 +13,9 @@ datatype: string
 - Kilde := DIFI
 - Kommentar := Språkkode angitt etter ISO 639-1 
 
-h4. Eksempel
+h3. Eksempel
 
+table(table table-striped).
 |_. ISO 639-1  kode |_. Språk |
 | nb | Bokmål |
 | nn | nynorsk |

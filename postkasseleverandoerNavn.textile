@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: egenskap
 title: postkasseleverandoerNavn
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
@@ -14,14 +14,8 @@ datatype: string
 - Kommentar := Dette er navn på Leverandør. Navnet kan brukes i dialog med Innbygger. 
 - Gyldige verdier := | Digipost | eBoks |
 
-h4. Xml eksempel
+h3. Xml eksempel
 
-
-
-
-
-
-<pre class="brush: xml; toolbar: false">
+<pre>
 <{{page.title}}>Digipost</{{page.title}}>
-
 </pre>

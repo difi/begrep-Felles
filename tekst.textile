@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: egenskap
 title: tekst
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
@@ -15,12 +15,13 @@ datatype: string
 
 h4. Egenskaper
 
+table(table table-striped).
 |_. Identifikator |_. Term |_. Kardinalitet | Kommentar |
 | "lang":http://www.loc.gov/standards/iso639-2/php/code_list.php | Språk, language | 1-1 | ISO-639, som definert i "referansekatalogen":http://standard.difi.no/forvaltningsstandarder/referansekatalogen-html-versjon
 
-h4. Xml eksempel
+h3. Xml eksempel
 
-<pre class="brush: xml; toolbar: false">
+<pre>
 <Tekst lang="no">Dette er en tekst på bokmål</Tekst>
 </pre>
 

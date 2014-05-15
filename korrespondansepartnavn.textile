@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: egenskap
 title: korrespondansepartnavn
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
@@ -11,6 +11,3 @@ group: Egenskap
 - Datatype := string
 - Kilde := NOARK 5
 - Kommentar := Navn på korrespondansepart forekommer én gang innenfor objektet korrespondansepart, men denne kan forekomme flere ganger innenfor en journalpost.   Identifikasjon i NOARK 5: M400. 
-
-h4. Attributer
-

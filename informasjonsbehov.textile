@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: egenskap
 title: informasjonsbehov
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
@@ -12,9 +12,9 @@ group: Egenskap
 - Kilde := DIFI
 - Kommentar := informasjonsbehov brukes i forespørsler til registre for å definere hvilke opplysninger som skal utleveres til virksomheten.
 
-h4. Xml eksempel
+h3. Xml eksempel
 
-<pre class="brush: xml; toolbar: false">
+<pre>
  <ns:informasjonsbehov>Kontaktinfo</ns:informasjonsbehov>
  <ns:informasjonsbehov>Sertifikat</ns:informasjonsbehov>
  <ns:informasjonsbehov>SikkerDigitalPost</ns:informasjonsbehov>

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: egenskap
 title: tittel
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
@@ -17,13 +17,14 @@ h3. Attributer
 
 Tittelen har et språk attributt som beskriver teksten. Språk attributtet kan brukes for å understøtte funksjoner som opplesing av tekst.
 
-{background:#ddd}.|_. Identifikator |_. Kardinalitet |_. Datatype |
+table(table table-striped).
+|_. Identifikator |_. Kardinalitet |_. Datatype |
 | lang | 1..1 | "spraak":spraak |
 
 
-h4. Xml eksempel
+h3. Xml eksempel
 
-<pre class="brush: xml; toolbar: false">
+<pre>
 <{{page.title}} lang="no">Vedtaksbrev - støtte til utdanning - saksnr. 2013/1111</{{page.title}}>
 </pre>
 

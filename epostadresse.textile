@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: egenskap
 title: epostadresse
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
@@ -16,11 +16,9 @@ datatype: string
 * Ein tekststreng på formatet "^[\\w-\\+]+(?:\\.[\\w-\\+]+)*@(?:[\\w-]+\.)+[a-zA-Z]{2,7}$"
 * Klassifikasjon er Open Web Application Security Project (OWASP): Regulære uttrykk for validering
 
+h3. Xml eksempel
 
-
-h4. Xml eksempel
-
-<pre class="brush: xml; toolbar: false">
+<pre>
 <ns2:Epostadresse sistOppdatert="2014-02-25T13:08:00.000+01:00" sistVerifisert="2013-10-21T10:09:28.000+02:00">01012295312_test@minid.difi.no</ns2:Epostadresse>
 </pre>
 

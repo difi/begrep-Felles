@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: egenskap
 title: varslingskanal
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
@@ -15,9 +15,9 @@ datatype: string
 - Gyldige verdier := | epost | sms |
 - Standardverdi := epost
 
-h4. Xml eksempel
+h3. Xml eksempel
 
-<pre class="brush: xml; toolbar: false">
+<pre>
 <{{page.title}}>sms</{{page.title}}>
 </pre>
 

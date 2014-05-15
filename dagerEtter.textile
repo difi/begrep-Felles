@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: egenskap
 title: dagerEtter
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
@@ -13,14 +13,11 @@ datatype: nonNegativeInteger
 - Kilde := DIFI
 - Kommentar := Et tall som angir antall dager etter en bestemt virkningsdato eller opprettingsdato. 
 
+h3. Xml eksempel
 
-h4. Xml eksempel
-
-<pre class="brush: xml; toolbar: false">
-
+<pre>
       <repetisjoner>
         <dagerEtter>0</dagerEtter>
         <dagerEtter>7</dagerEtter>
-      </repetisjoner>
-	  
+      </repetisjoner>	  
 </pre>

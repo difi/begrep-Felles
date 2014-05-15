@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: egenskap
 title: senesteEndringsNummer
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
@@ -11,11 +11,11 @@ datatype: long
 - Definisjon := Et "endringsNummer":endringsNummer.html
 - Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}
 - Kilde := DIFI
-- Kommentar := Beskriver siste endringsnummer i et register. Kan sammenlignes med "tilEndringsNummer":tilEndringsNummer.html for å vite om det finnes flere endringer i registeret.
+- Kommentar := Beskriver siste endringsnummer i et register. Kan sammenlignes med "tilEndringsNummer":tilEndringsNummer.html for Ã¥ vite om det finnes flere endringer i registeret.
 
-h4. Xml eksempel
+h3. Xml eksempel
 
-<pre class="brush: xml; toolbar: false">
+<pre>
     <ns3:HentEndringerRespons fraEndringsNummer="1001" senesteEndringsNummer="2440049" tilEndringsNummer="2000" xmlns:ns2="http://begrep.difi.no" xmlns:ns3="http://kontaktinfo.difi.no/xsd/oppslagstjeneste/14-05">
 </pre>
 

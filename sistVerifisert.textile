@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: egenskap
 title: sistVerifisert
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
@@ -12,13 +12,13 @@ datatype: dateTime
 - Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}
 - Kilde := DIFI
 - Kommentar := sistVerifisert blir brukt i forskjellige objektet. (Eksempel for epostadresse og mobiltelefonnummer).
+
 Feltet definerer når objektet sist ble verifisert/bekreftet. 
 F.eks for mobiltelefonnummer betyr dette at en SMS er sendt til mobilnummeret og smsen er bekreftet mottatt av Person.
 
+h3. Xml eksempel
 
-h4. Xml eksempel
-
-<pre class="brush: xml; toolbar: false">
+<pre>
 <ns2:Mobiltelefonnummer sistOppdatert="2014-02-25T13:08:00.000+01:00" sistVerifisert="2013-10-21T10:09:28.000+02:00">12121212</ns2:Mobiltelefonnummer>
 </pre>
 

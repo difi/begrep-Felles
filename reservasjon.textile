@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: egenskap
 title: reservasjon
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
@@ -11,13 +11,13 @@ datatype: string
 - Definisjon := avgitt Forbehold i henhold til eForvaltningsforskriften
 - Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}
 - Kilde := DIFI
-- Kommentar := Reservasjon avgitt av Innbygger, brukt i henhold til eForvaltningsforskriften § 15 a.
+- Kommentar := Reservasjon avgitt av Innbygger, brukt i henhold til eForvaltningsforskriften Â§ 15 a.
 - Gyldige verdier := | JA | NEI |
 - Standardverdi := NEI
 
-h4. Xml eksempel
+h3. Xml eksempel
 
-<pre class="brush: xml; toolbar: false">
+<pre>
 <ns2:reservasjon>JA</ns2:reservasjon>
 </pre>
 

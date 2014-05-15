@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: egenskap
 title: sistOppdatert
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
@@ -13,9 +13,9 @@ datatype: dateTime
 - Kilde := DIFI
 - Kommentar := sistOppdatert blir brukt i forskjellige objektet, i de objekter det er en del av definerer feltet når objektet sist ble endret. Det gir ingen informasjon om hvilken endring som da ble utført.
 
-h4. Xml eksempel
+h3. Xml eksempel
 
-<pre class="brush: xml; toolbar: false">
+<pre>
 <ns2:Mobiltelefonnummer sistOppdatert="2014-02-25T13:08:00.000+01:00" sistVerifisert="2013-10-21T10:09:28.000+02:00">12121212</ns2:Mobiltelefonnummer>
 </pre>
 

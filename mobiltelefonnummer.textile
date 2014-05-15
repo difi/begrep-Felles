@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: egenskap
 title: mobiltelefonnummer
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
@@ -18,8 +18,7 @@ datatype: string
 * Maximum lengde : 20
 * Tillatte tegn: 0-9 og eventuelt + som første karakter
 
-I tillegg er det en ekstra validering av norske mobilnummer.
-Norske mobilnummer er definert som:
+I tillegg er det en ekstra validering av norske mobilnummer. Norske mobilnummer er definert som:
 
 * nummeret starter på 0047,+47 eller er på 8 tegn
 
@@ -29,11 +28,10 @@ For disse mobiltelefonnummer er det følgende validering:
 
 Dette er i henhold til "Nummerplan E.164":http://no.wikipedia.org/wiki/Nummerplan_%28E.164%29
 
+h3. Xml eksempel
 
-h4. Xml eksempel
-
-<pre class="brush: xml; toolbar: false">
-               <ns2:Mobiltelefonnummer sistOppdatert="2014-02-25T13:08:00.000+01:00" sistVerifisert="2013-10-21T10:09:28.000+02:00">12121212</ns2:Mobiltelefonnummer>
+<pre>
+	<ns2:Mobiltelefonnummer sistOppdatert="2014-02-25T13:08:00.000+01:00" sistVerifisert="2013-10-21T10:09:28.000+02:00">12121212</ns2:Mobiltelefonnummer>
 </pre>
 
 

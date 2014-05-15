@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: egenskap
 title: fraEndringsNummer
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
@@ -13,10 +13,9 @@ datatype: long
 - Kilde := DIFI
 - Kommentar := Brukes i endringsforespørsler for å hente alle endringer fra og med et bestemt "endringsNummer":endringsNummer.html.
 
+h3. Xml eksempel
 
-h4. Xml eksempel
-
-<pre class="brush: xml; toolbar: false">
+<pre>
 <ns:HentEndringerForespoersel fraEndringsNummer="1001">    
 </pre>
 

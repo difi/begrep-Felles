@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: egenskap
 title: postkasseleverandoerAdresse
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
@@ -11,16 +11,12 @@ datatype: string
 - Definisjon := Adresse til en leverandør av Postkassetjeneste
 - Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}
 - Kilde := DIFI
-- Kommentar := Dette er en unik adresse for en leverandør, enten en Postkasseleverandør eller Utskrifts og forsendelsestjeneeste leverandør . 
-Adressen brukt for adressering er "Organisasjonsnummeret":http://www.brreg.no/samordning/organisasjonsnummeret for leverandører. Se
+- Kommentar := Dette er en unik adresse for en leverandør, enten en Postkasseleverandør eller Utskrifts og forsendelsestjeneeste leverandør. Adressen brukt for adressering er "Organisasjonsnummeret":http://www.brreg.no/samordning/organisasjonsnummeret for leverandører.
 
+h3. Xml eksempel
 
-
-h4. Xml eksempel
-
-<pre class="brush: xml; toolbar: false">
+<pre>
 <ns2:postkasseleverandoerAdresse>012345678</ns2:postkasseleverandoerAdresse>
-
 </pre>
 
 

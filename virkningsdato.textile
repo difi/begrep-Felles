@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: egenskap
 title: virkningsdato
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
@@ -13,10 +13,9 @@ datatype: date
 - Kilde := DIFI
 - Kommentar := Tidspunkt/dato for når en melding skal tilgjengeliggjøres for Innbygger i Innbygger sin postkasse. Dokumentet vil leveres til postkassen før dette tidspunkt, men ikke være synlig/tilgjengelig for Innbygger.
 
+h3. Xml eksempel
 
-h4. Xml eksempel
-
-<pre class="brush: xml; toolbar: false">
+<pre>
 <virkningsdato>2013-12-11</virkningsdato>
 </pre>
 
