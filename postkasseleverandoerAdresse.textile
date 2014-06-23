@@ -11,7 +11,7 @@ datatype: string
 - Definisjon := Adresse til en leverandør av Postkassetjeneste
 - Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}
 - Kilde := DIFI
-- Kommentar := Dette er en unik adresse for en leverandør, enten en Postkasseleverandør eller Utskrifts og forsendelsestjeneeste leverandør. Adressen brukt for adressering er "Organisasjonsnummeret":http://www.brreg.no/samordning/organisasjonsnummeret for leverandører.
+- Kommentar := Dette er en unik adresse for en leverandør, enten en Postkasseleverandør eller Utskrifts og forsendelsestjeneeste leverandør. Adressen brukt for adressering er "Organisasjonsnummeret":http://www.brreg.no/samordning/organisasjonsnummeret.html for leverandører.
 
 h3. Xml eksempel
 
