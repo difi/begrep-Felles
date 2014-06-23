@@ -13,7 +13,10 @@ datatype: string
 - Kilde := DIFI
 - Kommentar := Et mobiltelefonnummer lagret i Digital kontaktregister har følgende format:
 
-* En tekststreng på formatet "^\\+?[- _0-9]+$"
+* En tekststreng på formatet:
+
+pre. "^\\+?[- _0-9]+$"
+
 * Minimum lengde : 8
 * Maximum lengde : 20
 * Tillatte tegn: 0-9 og eventuelt + som første karakter
