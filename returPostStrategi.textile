@@ -11,8 +11,7 @@ datatype: string
 - Definisjon := Definerer hvordan fysisk post som ikke blir levert til mottaker skal håndteres.
 - Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}
 - Kilde := DIFI
-- Kommentar := 
-
+- Kommentar := Valg av håndteringmetode for retur post. Dette blir valgt når post sendes til utskrift og avgjør hvordan returadresse og EA logo m.m. behandles.
 - Gyldige verdier := | DIREKTE_RETUR | MAKULERING_MED_MELDING |
 
 h3. Beskrivelse av gyldige verdier
