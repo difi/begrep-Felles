@@ -1,0 +1,28 @@
+---
+layout: egenskap
+title: returPostStrategi
+headtitle: Begrepskatalog for Sikker digital post - 
+group: Egenskap
+datatype: string
+---
+
+- Identifikator := "http://begrep.difi.no{{ page.url  | remove:".html" }}":{{page.title}}
+- Term := {{page.title}}
+- Definisjon := Definerer hvordan fysisk post som ikke blir levert til mottaker skal håndteres.
+- Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}
+- Kilde := DIFI
+- Kommentar := 
+
+- Gyldige verdier := | DIREKTE_RETUR | MAKULERING_MED_MELDING |
+
+h3. Beskrivelse av gyldige verdier
+
+table(table table-striped).
+|_. Verdi |_. Beskrivelse  |
+| DIREKTE_RETUR | Returpost blir sendt direkte til adressen angitt som returpost adressen, ingen videre oppfølging. |
+| MAKULERING_MED_MELDING | All post får lagt på et "EA merke":http://www.bring.no/hele-bring/produkter-og-tjenester/brev-og-postreklame/bring-mail/ea-merket og en "strekkode":http://www.bring.no/hele-bring/produkter-og-tjenester/brev-og-postreklame/bring-mail/oppbygging-av-strekkode. 
+Returpost blir sendt til Posten sin EA tjeneste der strekkoden blir scannet, melding om returpost blir sendt til Avsender og brevet blir makulert. | 
+
+
+
+

@@ -1,0 +1,33 @@
+---
+layout: egenskap
+title: posttype
+headtitle: Begrepskatalog for Sikker digital post - 
+group: Egenskap
+datatype: string
+---
+
+- Identifikator := "http://begrep.difi.no{{ page.url  | remove:".html" }}":{{page.title}}
+- Term := {{page.title}}
+- Definisjon := Betegnelses for postsending.
+- Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}
+- Kilde := DIFI
+- Kommentar := {{page.title}} avgjør fremsendingstiden for brevet. Hver {{page.title}} har forskjellig pris.
+- Gyldige verdier := | A | B |
+
+h3. informasjon om fremsendingstid:
+
+* "http://www.posten.no/produkter-og-tjenester/brev-og-frimerker/a-prioritert-a-post":http://www.posten.no/produkter-og-tjenester/brev-og-frimerker/a-prioritert-a-post
+
+*Fremsendingstid*
+Innen 1-2 virkedager i Norge
+Tidligst fremme etter 2-6 virkedager til Europa
+Tidligst fremme etter 4-8 virkedager til resten av verden
+
+
+* "http://www.posten.no/produkter-og-tjenester/brev-og-frimerker/b-okonomi-b-post":http://www.posten.no/produkter-og-tjenester/brev-og-frimerker/b-okonomi-b-post
+
+*Framsendingstid*
+Innen 3-5 virkedager i Norge
+Tidligst fremme etter 4-10 virkedager til Europa
+Tidligst fremme etter 10-14 virkedager til resten av verden 
+

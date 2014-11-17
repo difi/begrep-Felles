@@ -1,0 +1,16 @@
+---
+layout: egenskap
+title: utskriftstype
+headtitle: Begrepskatalog for Sikker digital post - 
+group: Egenskap
+datatype: string
+---
+
+- Identifikator := "http://begrep.difi.no{{ page.url  | remove:".html" }}":{{page.title}}
+- Term := {{page.title}}
+- Definisjon := Betegnelses for hva slags print og utskriftstype som skal velges for dette brevet.
+- Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}
+- Kilde := DIFI
+- Kommentar := {{page.title}} avgjør hvilken utskriftsjobb brevet blir en del av. Det er to forskjellige utskriftsjobber, en for farge utskrift og en for sort-hvit. {{page.title}} avgjør fargen på alle ark inklusive forssidearket.
+Hver {{page.title}} har forskjellig pris.
+- Gyldige verdier := | SORT_HVITT | FARGE |
