@@ -1,6 +1,6 @@
 ---
 layout: egenskap
-title: returPostStrategi
+title: returPostHaandtering
 headtitle: Begrepskatalog for Sikker digital post - 
 group: Egenskap
 datatype: string
