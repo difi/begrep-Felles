@@ -1,0 +1,23 @@
+---
+layout: egenskap
+title: virkningstidspunkt
+headtitle: Begrepskatalog for Sikker digital post - 
+group: Egenskap
+datatype: dateTime
+---
+
+- Identifikator := "http://begrep.difi.no{{ page.url  | remove:".html" }}":{{page.title}}
+- Term := {{page.title}}
+- Definisjon := Dato for når et element skal være aktivt.
+- Datatype := "{{ page.datatype }}":http://www.w3.org/TR/xmlschema-2/#{{page.datatype}}
+- Kilde := DIFI
+- Kommentar := Dato og tidspunkt for når en melding skal tilgjengeliggjøres for Innbygger i Innbygger sin postkasse. Forsendelsen vil leveres til postkassen før dette tidspunkt, men ikke være synlig/tilgjengelig for innbygger.
+
+
+h3. Xml eksempel
+
+<pre>
+<virkningstidspunkt>2015-01-07T08:00:00.000Z</virkningsdato>
+</pre>
+
+
