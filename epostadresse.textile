@@ -13,14 +13,14 @@ datatype: string
 - Kilde := DIFI
 - Kommentar := En epostadresse lagret i Digital kontaktregister.
 
-* e-postadressen er maks 50 tegn langt.
-* Formatreglene for e-postadresse er styrt av flere RFC fra "IETF":https://www.ietf.org, blant annet: RFC2822:https://www.ietf.org/rfc/rfc2822.txt. 
+
+Følgende format regler gjelder for {{page.title}}
+
+* {{page.title}} er maks 50 tegn lang.
+* Formatreglene for {{page.title}} er styrt av flere RFC fra "IETF":https://www.ietf.org, blant annet: "RFC2822":https://www.ietf.org/rfc/rfc2822.txt. 
 ** Trolig best/enklest dokumentert på "wikipedia":https://en.wikipedia.org/wiki/Email_address
-* Digital kontaktregister bruker pr. dags. dato "Apache Commons Validator":https://commons.apache.org/proper/commons-validator/ sin e-postadresse validator for å realisere formatreglene for e-postadresse.
+* Digital kontaktregister bruker pr. dags. dato "Apache Commons Validator":https://commons.apache.org/proper/commons-validator/ sin e-postadresse validator for å realisere formatreglene for {{page.title}}.
 
- 
-
-* Ein tekststreng på formatet 
 h3. Xml eksempel
 
 <pre>
